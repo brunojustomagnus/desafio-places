@@ -66,5 +66,12 @@ sail artisan migrate --seed
 sail artisan test
 ```
 
-Nos arquivos do Laravel, adicionei um arquivo do tipo JSON para ser usado no POSTMAN para testar as rotas. Basta copiar para a sua máquina e importar para o POSTMAN.
+### 10. Rotas para testar no POSTMAN:
+Nos arquivos do Laravel, adicionei um arquivo do tipo JSON:
+```bash
+RESTful API Valdo Test.postman_collection.json
+```
+Este arquivo contem todas as rotas já configuradas, bem documentadas e prontas para serem testadas, basta importá-lo para o Postman.
+
+No mais, agradeço a oportunidade do teste. 
 
