@@ -8,8 +8,8 @@ O objetivo deste projeto é fornecer uma API simples para gerenciar lugares, per
 
 ## Pré-requisitos
 
-- Docker
-- Composer
+- [Docker](https://www.docker.com/)
+- [Composer](https://getcomposer.org/)
 
 ## Configuração
 
@@ -19,9 +19,10 @@ O objetivo deste projeto é fornecer uma API simples para gerenciar lugares, per
 git clone https://github.com/brunojustomagnus/desafio-places.git
 ```
 
-### 2. Abrir no VSCode:
-
-Abra o VSCode e carregue o diretório do projeto.
+### 2. Após acessar o diretório, abra no VSCode:
+```bash
+code .
+```
 
 ### 3. Instalar dependências do Composer:
 
@@ -29,7 +30,7 @@ Abra o VSCode e carregue o diretório do projeto.
 composer install
 ```
 
-### 4. Copiar o arquivo de configuração do ambiente:
+### 4. Copiar o arquivo de configuração do ambiente utilizando o 'example' para isso, pois já vem configurado:
 
 ```bash
 cp .env.example .env
@@ -53,13 +54,13 @@ php artisan key:generate
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 ```
 
-### 8. Executar migrações e seeders do banco de dados:
+### 8. Executar migrações e seeders do banco de dados usando o Sail:
 
 ```bash
 sail artisan migrate --seed
 ```
 
-### 9. Iniciar o servidor de desenvolvimento:
+### 9. Executar os testes usando o Sail:
 
 ```bash
 sail artisan test
