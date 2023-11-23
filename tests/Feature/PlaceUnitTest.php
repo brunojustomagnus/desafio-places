@@ -70,7 +70,7 @@ class PlaceUnitTest extends TestCase
         $response =  $this->withHeaders([
             'Accept' => 'application/json',
             'Content-Type' => 'application/json',
-        ])->json('PUT', '/api/place/2', $data);
+        ])->json('PUT', '/api/place/1', $data);
 
         $response->assertStatus(200)->assertJson([
             "name" => "New Random place",
