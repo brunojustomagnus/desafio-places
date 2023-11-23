@@ -67,11 +67,10 @@ sail artisan test
 ```
 
 ### 10. Rotas para testar no POSTMAN:
-Nos arquivos do Laravel, adicionei um arquivo do tipo JSON:
+Nos arquivos do Laravel, adicionei uma coleção do Postman com todas as rotas prontas e documentadas:
 
 - [Baixe a coleção do Postman](./RESTful%20API%20Valdo%20Test.postman_collection.json)
 
-Este arquivo contem todas as rotas já configuradas, bem documentadas e prontas para serem testadas, basta importá-lo para o Postman.
+Basta baixá-lo e importá-lo para o Postman.
 
 No mais, agradeço a oportunidade do teste. 
-
